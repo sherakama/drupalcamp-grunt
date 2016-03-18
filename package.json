@@ -1,0 +1,35 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "A Drupal Site Helper Utility for Stanford Drupal Camp Presentation",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherakama/drupalcamp-grunt.git"
+  },
+  "keywords": [
+    "Stanford",
+    "Drupal",
+    "Camp"
+  ],
+  "author": "Shea McKinney",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sherakama/drupalcamp-grunt/issues"
+  },
+  "homepage": "https://github.com/sherakama/drupalcamp-grunt#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "grunt": "^0.4.5",
+    "grunt-available-tasks": "^0.6.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-drush": "0.0.7",
+    "time-grunt": "^1.3.0"
+  }
+}

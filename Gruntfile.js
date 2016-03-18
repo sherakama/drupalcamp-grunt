@@ -53,7 +53,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-drush');
 
   // Register Tasks.
-  grunt.registerTask('default',['compass:ofw', 'drush:ccall']);
+  grunt.registerTask('default',['availabletasks']);
+
+  // OFW compile and clear drush cache.
+  grunt.registerTask('ofw',['compass:ofw', 'drush:ccall']);
 
   // Live reload and sync with browser.
   grunt.registerTask('sync', ['browserSync', 'watch']);
